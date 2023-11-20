@@ -1,2 +1,2 @@
-# versity_project
+# versity project
 versity project
