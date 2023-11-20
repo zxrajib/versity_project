@@ -1,2 +1,0 @@
-# versity project
-versity project

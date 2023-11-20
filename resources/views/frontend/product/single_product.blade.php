@@ -172,7 +172,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                         <div class="fashion_minimal_product">
                             <ul class="product_label ul_li clearfix">
-                                <li data-bg-color="#fb5d5d">-{{ $related_product->stock->stockDetails->first()->discount_percentage ?? '' }}%</li>
+                                <li data-bg-color="#fb5d5d">%</li>
                             </ul>
                             <div class="item_image">
                                 <a class="image_wrap" href="{{ route('product.details', $related_product->uuid) }}">

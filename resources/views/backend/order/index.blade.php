@@ -27,6 +27,7 @@
                             </thead>
                             <tbody>
                             @foreach($orders as $key=>$order)
+{{--                                {{dd($order)}}--}}
                                 <tr>
                                     <td>{{ $loop->iteration }}</td>
                                     <td>{{ $order->name }}</td>

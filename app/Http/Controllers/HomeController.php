@@ -211,10 +211,13 @@ class HomeController extends Controller
     public function dashboard()
     {
         $products = Product::all();
+
+        $vendor_products = Product::where('user_id', Auth::user()->id)->get();
         $orders = Order::all();
+        $vendor_orders = Order::where('user_id', Auth::user()->id)->get();
         $customerData = Customer::where('user_id', Auth::user()->id)->first();
 //        dd(Auth::user());
-        return view('backend.dashboard.index', compact('orders', 'products', 'customerData'));
+        return view('backend.dashboard.index', compact('orders', 'products', 'customerData', 'vendor_products', 'vendor_orders'));
     }
 
     public function admin_notification()

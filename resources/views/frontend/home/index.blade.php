@@ -898,7 +898,7 @@
 @push('css')
     <style>
         .electronic_product_item .product_label {
-            top: 9px !important;
+            top: 0 !important;
             right: 0 !important;
             z-index: 1;
             position: absolute;
