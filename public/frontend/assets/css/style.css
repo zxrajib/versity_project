@@ -482,6 +482,7 @@ hr {
   position: relative;
   border-radius: 4px;
   background: transparent;
+  display: none!important;
 }
 .slick-arrow:before {
   top: 0px;
@@ -11086,7 +11087,7 @@ button {
   display: none;
 }
 .supermarket_slider .slider_image {
-  max-width: 370px;
+  max-width: 450px;
 }
 .supermarket_slider .slider_content {
   max-width: 370px;
@@ -15984,6 +15985,7 @@ button {
 
 .supermarket_product_item {
   position: relative;
+  height: 25rem;
 }
 .supermarket_product_item:hover{
   background-color: beige;
