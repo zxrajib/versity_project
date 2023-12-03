@@ -48,7 +48,7 @@ class UserSeeder extends Seeder
                 'uuid' => 'exampleofuuid',
                 'name' => 'Sub Admin',
                 'user_name' => 'sub_admin',
-                'phone' => '01858721725',
+                'phone' => '018587217 25',
                 'email' => 'subadmin@gmail.com',
                 'password' => Hash::make('123456'),
                 'user_type' => 'Admin',
